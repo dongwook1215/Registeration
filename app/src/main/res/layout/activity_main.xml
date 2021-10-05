@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary">
+
+            <ImageButton
+                android:id="@+id/finish"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/ic_keyboard_backspace_black_24dp"
+                android:foreground="?attr/selectableItemBackground" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="사용설명서"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+            <ImageButton
+                android:id="@+id/logout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/ic_exit_to_app_black_24dp"
+                android:foreground="?attr/selectableItemBackground" />
+        </androidx.appcompat.widget.Toolbar>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/announce"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9">
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="사용설명서"
+            android:textColor="@color/lectureColor"
+            android:textSize="30dp"
+            android:textStyle="italic|bold"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text=" 1.왼쪽 첫번째 아이콘은 'Mypage'로 이동합니다."
+            android:textColor="@color/lectureColor"
+            android:textSize="20dp"
+            android:textStyle="normal"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text=" 2.왼쪽 두번째 아이콘은 '물품대여'로 이동합니다."
+            android:textColor="@color/lectureColor"
+            android:textSize="20dp"
+            android:textStyle="normal"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text=" 3.왼쪽 세번째 아이콘은 '모빌리티'로 이동합니다."
+            android:textColor="@color/lectureColor"
+            android:textSize="20dp"
+            android:textStyle="normal"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text=" 4.왼쪽 네번째 아이콘은 '문의하기'로 이동합니다."
+            android:textColor="@color/lectureColor"
+            android:textSize="20dp"
+            android:textStyle="normal"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 5.반납은 관리자를 통해 할수 있습니다."
+            android:textColor="@color/lectureColor"
+            android:textSize="20dp"
+            android:textStyle="normal"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text=" 6.환불에 관련된 사항은 관리자에게 직접 문의하세요"
+            android:textColor="@color/lectureColor"
+            android:textSize="20dp"
+            android:textStyle="normal"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text=" 7.대여 가능한 장소는 mypage의 대여 위치를 통해 확인가능합니다."
+            android:textColor="@color/lectureColor"
+            android:textSize="20dp"
+            android:textStyle="normal"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text=" 8.자동차를 빌리는 고객들은 License등록을 꼭 해주세요!!"
+            android:textColor="@color/lectureColor"
+            android:textSize="20dp"
+            android:textStyle="normal"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text=" 9.리뷰는 모빌리티에 관련된 리뷰만 작성이 가능합니다."
+            android:textColor="@color/lectureColor"
+            android:textSize="20dp"
+            android:textStyle="normal"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <ImageButton
+                android:id="@+id/userpage"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:background="@drawable/ic_person_black_24dp"
+                android:foreground="?attr/selectableItemBackground" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <ImageButton
+                android:id="@+id/rent_things"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:background="@drawable/ic_beach_access_black_24dp"
+                android:foreground="?attr/selectableItemBackground" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <ImageButton
+                android:id="@+id/rent_ride"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:background="@drawable/ic_directions_bike_black_24dp"
+                android:foreground="?attr/selectableItemBackground" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <ImageButton
+                android:id="@+id/Qna"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:background="@drawable/ic_forum_black_24dp"
+                android:foreground="?attr/selectableItemBackground" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

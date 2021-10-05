@@ -1,0 +1,9 @@
+<resources>
+    <string-array name="mobility">
+        <item>모빌리티를 선택해주세요</item>
+        <item>car</item>
+        <item>kickboard</item>
+        <item>board</item>
+        <item>bycicle</item>
+    </string-array>
+</resources>

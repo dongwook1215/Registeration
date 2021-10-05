@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="bank">
+        <item>NH</item>
+        <item>KB</item>
+        <item>DGB</item>
+        <item>IBK</item>
+    </string-array>
+</resources>

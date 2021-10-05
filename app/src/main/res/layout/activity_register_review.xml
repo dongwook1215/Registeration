@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterReviewActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary">
+
+            <ImageButton
+                android:id="@+id/finish"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/ic_keyboard_backspace_black_24dp"
+                android:foreground="?attr/selectableItemBackground" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="모빌리티 리뷰 작성"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+            <ImageButton
+                android:id="@+id/logout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/ic_exit_to_app_black_24dp"
+                android:foreground="?attr/selectableItemBackground" />
+        </androidx.appcompat.widget.Toolbar>
+    </LinearLayout>
+    <LinearLayout
+        android:background="@drawable/announce"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9">
+        <Spinner
+            android:background="@color/textColor"
+            android:id="@+id/mobilityname"
+            android:layout_width="280dp"
+            android:layout_height="27dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"></Spinner>
+
+        <Spinner
+            android:id="@+id/mobilityscore"
+            android:layout_width="280dp"
+            android:layout_height="27dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@color/textColor"></Spinner>
+
+        <EditText
+            android:layout_width="280dp"
+            android:layout_height="280dp"
+            android:hint="간단한 리뷰를 작성해주세요"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textColorHint="#5C5A5A"
+            android:id="@+id/reviewcontent"
+            android:layout_marginTop="30dp"
+            android:background="@android:color/white"/>
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:background="@color/colorPrimary"
+            android:text="작성"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:id="@+id/RegisterReview"/>
+
+    </LinearLayout>
+</LinearLayout>

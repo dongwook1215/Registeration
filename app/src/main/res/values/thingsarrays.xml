@@ -1,0 +1,12 @@
+<resources>
+    <string-array name="things">
+        <item>물품을 선택해주세요</item>
+        <item>umbrella</item>
+        <item>laptop</item>
+        <item>pencil</item>
+        <item>locker room</item>
+        <item>desktop</item>
+        <item>table</item>
+        <item>room</item>
+    </string-array>
+</resources>

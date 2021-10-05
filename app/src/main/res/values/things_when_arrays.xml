@@ -1,0 +1,9 @@
+<resources>
+    <string-array name="things_when">
+        <item>대여 기간을 선택해주세요</item>
+        <item>1 months</item>
+        <item>2 months</item>
+        <item>3 months</item>
+        <item>4 months</item>
+    </string-array>
+</resources>

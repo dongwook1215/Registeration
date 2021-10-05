@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="리뷰 내용"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:textColor="#ffffff"
+        android:id="@+id/reviewText"
+        android:drawableStart="@drawable/ic_textsms_black_24dp"
+        android:drawableLeft="@drawable/ic_textsms_black_24dp"
+        android:background="@color/colorPrimary"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="사용자id"
+            android:layout_gravity="center"
+            android:padding="3dp"
+            android:layout_marginLeft="8dp"
+            android:textColor="#ffffffff"
+            android:textColorHint="#ffffffff"
+            android:id="@+id/idText"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="사용모빌리티"
+            android:layout_gravity="center"
+            android:padding="3dp"
+            android:layout_marginLeft="8dp"
+            android:textColor="#ffffffff"
+            android:textColorHint="#ffffffff"
+            android:id="@+id/mobilitynameText"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="평가점수"
+            android:layout_gravity="center"
+            android:padding="3dp"
+            android:textColor="#ffffffff"
+            android:textColorHint="#ffffffff"
+            android:id="@+id/scoreText"/>
+
+    </LinearLayout>
+
+</LinearLayout>

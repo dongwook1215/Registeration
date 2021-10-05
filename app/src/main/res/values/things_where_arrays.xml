@@ -1,0 +1,12 @@
+<resources>
+    <string-array name="things_where">
+        <item>대여 장소를 선택해주세요</item>
+        <item>영남대학교 정문</item>
+        <item>중앙도서관</item>
+        <item>이과도서관</item>
+        <item>IT관</item>
+        <item>전기관</item>
+        <item>섬유관</item>
+        <item>화공관</item>
+    </string-array>
+</resources>

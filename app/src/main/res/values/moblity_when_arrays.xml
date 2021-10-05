@@ -1,0 +1,9 @@
+<resources>
+    <string-array name="mobility_when">
+        <item>대여 기간을 선택해주세요</item>
+        <item>1days</item>
+        <item>7days</item>
+        <item>1months</item>
+        <item>2months</item>
+    </string-array>
+</resources>

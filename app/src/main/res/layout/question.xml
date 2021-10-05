@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_weight="9"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="문의 내용"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:textColor="#ffffff"
+            android:id="@+id/questionText"
+            android:drawableStart="@drawable/ic_textsms_black_24dp"
+            android:drawableLeft="@drawable/ic_textsms_black_24dp"
+            android:background="@color/colorPrimary"
+            android:textStyle="bold" />
+        <ImageButton
+            android:background="@color/colorPrimary"
+            android:src="@drawable/www2"
+            android:layout_marginRight="5dp"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:id="@+id/wwwButton"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="이메일"
+            android:layout_gravity="center"
+            android:padding="3dp"
+            android:layout_marginLeft="8dp"
+            android:textColor="#ffffffff"
+            android:textColorHint="#ffffffff"
+            android:id="@+id/emailText"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="2019-10-29"
+            android:layout_gravity="center"
+            android:padding="3dp"
+            android:textColor="#ffffffff"
+            android:textColorHint="#ffffffff"
+            android:id="@+id/dateText"/>
+
+    </LinearLayout>
+</LinearLayout>

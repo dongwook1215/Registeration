@@ -1,0 +1,11 @@
+<resources>
+    <string-array name="QnA_kind">
+        <item>문의 종류를 선택해주세요</item>
+        <item>회원가입</item>
+        <item>물품 대여</item>
+        <item>모빌리티 대여</item>
+        <item>환불</item>
+        <item>대여 취소</item>
+        <item>기타</item>
+    </string-array>
+</resources>
